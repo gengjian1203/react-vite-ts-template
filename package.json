@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@gengjian1203/fe-core-components": "^0.0.6",
     "@reduxjs/toolkit": "^2.6.1",
     "antd": "^5.27.3",
     "react": "^19.0.0",

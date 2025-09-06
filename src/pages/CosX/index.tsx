@@ -1,4 +1,4 @@
-// import { CXButton, CXCard } from '@cosx/fe-core-components';
+import { CXButton, CXCard } from '@gengjian1203/fe-core-components';
 import { Button } from 'antd';
 import { memo } from 'react';
 
@@ -8,7 +8,7 @@ const CosX = memo(() => {
       <div className="p-6 space-y-4">
         <Button>Antd按钮对照</Button>
       </div>
-      {/* <div className="p-6 space-y-4">
+      <div className="p-6 space-y-4">
         <div className="space-x-2">
           <CXButton variant="primary">Primary</CXButton>
           <CXButton variant="secondary">Secondary</CXButton>
@@ -46,7 +46,7 @@ const CosX = memo(() => {
         >
           这是一个功能丰富的卡片组件，支持头像、标签、元数据等多种内容展示。
         </CXCard>
-      </div> */}
+      </div>
     </div>
   );
 });
