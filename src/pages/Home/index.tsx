@@ -1,11 +1,34 @@
 import { memo } from 'react';
+import { useNavigate } from 'react-router';
+
+import Button from '@/components/Button';
 
 const Home = memo(() => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div className="w-full bg-cosx-light">
       <div className="p-cosx-lg space-y-cosx-lg">
+        <div className="flex flex-row gap-2">
+          <Button
+            text="Dashboard"
+            onClick={() => {
+              navigate('/dashboard');
+            }}
+          />
+          <Button
+            text="CosX"
+            onClick={() => {
+              navigate('/cosx');
+            }}
+          />
+          <Button
+            text="Test"
+            onClick={() => {
+              navigate('/');
+            }}
+          />
+        </div>
         <h1 className="text-cosx-4xl font-bold text-cosx-dark mb-cosx-xl">首页 - COSX Tailwind 样式系统</h1>
 
         {/* 间距示例 */}
