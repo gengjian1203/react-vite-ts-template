@@ -25,7 +25,13 @@ const Home = memo(() => {
           <Button
             text="Test"
             onClick={() => {
-              navigate('/');
+              navigate('/test');
+            }}
+          />
+          <Button
+            text="WxLogin"
+            onClick={() => {
+              navigate('/wxLogin');
             }}
           />
         </div>
